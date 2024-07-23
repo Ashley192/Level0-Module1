@@ -8,15 +8,20 @@ public class Remarkable {
 public static void main(String[] args) {
 
 		// 1. Save something remarkable about each person in a variable.
-		int Person="You are cool";
+		String ashley= "You are a pretty good artist.";
 
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-		JOptionPane.showInputDialog("Enter a name");
-		
+	
+		String name=JOptionPane.showInputDialog("Enter a name");
+		if (name.equals ("Ashley"))
+		JOptionPane.showInputDialog(ashley);
+
+		else JOptionPane.showInputDialog("Nice to meet you.");
+
 
 	
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
-		JOptionPane.showInputDialog("You are cool");
+		
 
 	}
 }

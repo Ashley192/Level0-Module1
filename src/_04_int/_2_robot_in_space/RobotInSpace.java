@@ -32,14 +32,30 @@ public class RobotInSpace extends KeyboardAdapter {
 	private void moveRobot(int keyPressed) {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
+		System.out.println(keyPressed);
 		
+	
+		int up=38;
+		int down=40;
+		int left=37;
+		int right=39;
+
 		// 3. If the up arrow is pressed, move the Robot up the screen.
+		if (up==38)
+		rob.move(up);
 		
 		// 4. If the down arrow is pressed, move the Robot down.
+		if (down==40)
 		
+		rob.move(down);
+	
 		// 5. If the left arrow is pressed, make the Robot go left.
+		if (left==37)
+		rob.move(left);
 		
 		// 6. If right is pressed, move the Robot right.
+		if (right==39)
+		rob.move(right);
 		
 		// 7. Run your program and move the Robot to R2-D2 for a surprise!
 		
