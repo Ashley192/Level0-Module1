@@ -8,13 +8,18 @@ public class MyAges {
 
 		// Make an int variable called age, to track how many times the loop has repeated
 		//        Start its value at zero.
+		int age=0;
 		
 		// Change the value of yourCurrentAge to match your age
-		int yourCurrentAge = 0;
+		int yourCurrentAge = 11;
 				
 		
 		//  WHILE LOOP. Start a while loop to repeat while age <= yourCurrentAge
-				
+				while (age <= yourCurrentAge){
+					System.out.println(age);
+					age=age+1;
+
+				}
 			//  Print the age variable
 		
 			//  Add one to the age variable
@@ -30,6 +35,12 @@ public class MyAges {
 		
 		//  FOR LOOP. Start a for loop to repeat while age <= your age, like this:
 		//  for ( age=0; age <= yourAge; age +=1 ) {
+		for ( age=0; age<= yourCurrentAge; age+=1) {
+			System.out.println(age);
+
+		}
+
+		}
 		
 			//  Print the age variable
 		
@@ -38,4 +49,4 @@ public class MyAges {
 		//  Run the program again. 		
 		//  Check that both loops printed the same numbers to the console
 	}
-}
+

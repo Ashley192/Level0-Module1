@@ -41,20 +41,23 @@ public class RobotInSpace extends KeyboardAdapter {
 		int right=39;
 
 		// 3. If the up arrow is pressed, move the Robot up the screen.
-		if (up==38)
+		if (keyPressed==38)
+		rob.setAngle(0);
 		rob.move(up);
 		
 		// 4. If the down arrow is pressed, move the Robot down.
-		if (down==40)
-		
+		if (keyPressed==40)
+		rob.setAngle(180);
 		rob.move(down);
 	
 		// 5. If the left arrow is pressed, make the Robot go left.
-		if (left==37)
+		if (keyPressed==37)
+		rob.setAngle(270);
 		rob.move(left);
 		
 		// 6. If right is pressed, move the Robot right.
-		if (right==39)
+		if (keyPressed==39)
+		rob.setAngle(90);
 		rob.move(right);
 		
 		// 7. Run your program and move the Robot to R2-D2 for a surprise!

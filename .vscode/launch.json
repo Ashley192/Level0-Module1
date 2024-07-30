@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeagueToken",
+            "request": "launch",
+            "mainClass": "league_token.LeagueToken",
+            "projectName": "Level0-Module1_26c0ea06"
+        },
+        {
+            "type": "java",
             "name": "SecretMessageBox",
             "request": "launch",
             "mainClass": "_03_if_else._3_secret_message_box.SecretMessageBox",

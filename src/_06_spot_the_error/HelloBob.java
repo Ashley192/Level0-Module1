@@ -5,15 +5,16 @@ import javax.swing.JOptionPane;
 public class HelloBob {
 public static void main(String[] args) {
 	
-	// This program is supposed to pop up    Hello Bob   only if the user enters the name   Bob
+	// This program is supposed to pop up  Hello Bob  if the user enters the name   Bob
 	// BUT it's not working. If you don't believe me, try running it.
 	// Change one line of code to fix this program.
 	
 	String name = JOptionPane.showInputDialog("What is your name?");
 	
-	if (name == "Bob") {
+	if (name.equals("Bob")) {
 		JOptionPane.showMessageDialog(null, "Hello Bob");
-	} else {
+	} 
+	else {
 		JOptionPane.showMessageDialog(null, "You're not Bob!!!");
 	}
 }
